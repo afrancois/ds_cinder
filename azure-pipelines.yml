@@ -7,7 +7,8 @@ trigger:
 - master
 
 pool:
-  vmImage: 'ubuntu-latest'
+  name: privateAgents
+  demands: agent.os -equals Windows_NT
 
 steps:
 - script: echo Hello, world!
