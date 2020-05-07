@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  name: privateAgents
+  name: azure pipelines
   demands: agent.os -equals Windows_NT
 
 steps:
